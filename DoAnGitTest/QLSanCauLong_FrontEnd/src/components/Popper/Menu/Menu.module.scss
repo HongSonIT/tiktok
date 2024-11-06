@@ -1,0 +1,35 @@
+.content {
+    width: 230px;
+    .menu-item {
+        margin-left: 0px;
+        padding: 12px 22px;
+    }
+}
+
+.menu-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    &:hover {
+        background-color: rgb(249, 248, 248);
+    }
+}
+
+.headerMenu {
+    position: relative;
+    height: 50px;
+}
+
+.btnBack {
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menuTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
